@@ -99,12 +99,12 @@ Types are derived from the API results, some field might be missing!
 
   ```
   {
-    "title": "Recipe name", //required field for user
-    "preparationTime": Int,
-    "servingCount": Int,
-    "sideDish": String,
-    "directions": String,
-    "ingredients": Array<{
+    title: String, //required field for user
+    preparationTime: Int,
+    servingCount: Int,
+    sideDish: String,
+    directions: String,
+    ingredients: Array<{
         amount: Int,
         amountUnit: String,
         isGroup: Boolean,
